@@ -6,9 +6,9 @@ import (
 )
 
 type SmartPowerBank struct {
-	Capacity     int    json:"capacity"
-	ChargeLevel  int    json:"charge_level"
-	Manufacturer string json:"manufacturer"
+	Capacity     int    `json:"capacity"`
+	ChargeLevel  int    `json:"charge_level"`
+	Manufacturer string `json:"manufacturer"`
 }
 
 func main() {
